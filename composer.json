@@ -1,0 +1,5 @@
+{
+    "require": {
+        "php-ai/php-ml": "2.5.8"
+    }
+}
