@@ -1,0 +1,32 @@
+
+#contenedor-publicaciones {
+    max-width: 800px; /* Utilizamos un ancho máximo en lugar de fijo */
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Incluimos el padding y borde dentro del ancho total */
+    border-radius: 10px;
+  }
+  
+  #publicacion-crear {
+    margin-bottom: 10px;
+  }
+  
+  #publicacion-crear textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box; /* Incluimos el padding dentro del ancho total */
+    border-radius: 10px;
+  }
+
+  
+  #publicacion-crear button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  

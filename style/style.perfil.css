@@ -1,0 +1,73 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666;
+	background: #f2f2f2; 
+	font-size: 1em;
+	line-height: 1.5em;
+	background-color: black;
+}
+.container {
+	display: flex; flex-wrap: wrap !important;
+	width: min(100% - 1em, 69em);
+	margin-inline: auto;
+}
+.btn {
+	display: flex; flex-wrap: wrap !important;
+	flex-direction: 1em;
+	align-self: center;
+    color: white;
+    padding: 15px auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+a {
+	display: flex; flex-wrap: wrap !important;
+}
+.card {
+	max-width: 18rem;
+	height: min(100% - 1em, 69em);
+}
+.main-header {
+	background: #333;
+	color: white;
+	font-size: 12px;
+}
+
+.card-octavo {
+	background-color: rgb(142, 68, 173);
+}
+
+.card-sexto {
+	background-color: rgb(186, 74, 0 );
+}
+
+.dropdown-item {
+	color: aliceblue;
+	font-size: 12px;
+}
+
+.btn {
+	font-size: 12px;
+}
+
+.dropdown-menu {
+	background-color: black;
+	margin: 0 auto;
+}
+
+.dropdown-header {
+	font-size: 12px;
+	margin: 0 auto;
+}
+
+.form-control {
+	font-size: 12px;
+	width: 60% !important;
+}
+
+.card-header {
+	font-size: 20px;
+}
